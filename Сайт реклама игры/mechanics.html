@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зов листры</title>
+    <link rel="stylesheet" href="css/mechanics.css">
+    <link rel="stylesheet" href="js/popup.js">
+    <link rel="shortcut icon" href="../Сайт реклама игры/img/logotype.png">
+</head>
+<body>
+    <div class="navigation">
+		<div class="logo">
+			<a href="index.html"> <img  src="img/logotype.png" alt="" class="logotype"></a>
+	    </div>
+        <div class="navmenu">
+            <ul class="menu">
+                <li class="navitem"><a href="shop.html" class="navlink">Магазин</a></li>
+                <li class="navitem"><a href="story.html" class="navlink">Сюжет</a></li>
+                <li class="navitem"><a href="character.html" class="navlink">Персонажи</a></li>
+                <li class="navitem"><a href="mechanics.html" class="navlink">Механики игры</a></li>
+                <li class="navitem"><a href="goal.html" class="navlink">Цель</a></li>
+                <li class="navitem"><a href="guide.html" class="navlink">Гайд</a></li>
+                <li class="navitem"><a href="news.html" class="navlink">Новости и обновления</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="imgBx">
+                <img src="" alt="">
+            </div>
+
+            <div class="contentBx">
+
+                <h2>Бой с мобами и боссами</h2>
+
+                <div class="size">
+                    <a 
+                        class="openDialogBtn button-violet" data-modal="modal-1"
+                        type="button"
+                        aria-haspopup="dialog"
+                        aria-controls="myDialog"
+                        href="#">
+                        Нажми что бы узнать больше 
+                    </a>
+                </div>
+              
+
+             
+            </div>
+
+        </div>
+    </div>
+
+    
+
+    <div class="container">
+        <div class="card">
+            <div class="imgBx">
+                <img src="" alt="">
+            </div>
+
+            <div class="contentBx">
+
+                <h2>Решение головоломок</h2>
+                <div class="size">
+                <a
+                        class="openDialogBtn2 button-violet2"
+                        type="button2"
+                        aria-haspopup="dialog2"
+                        aria-controls="myDialog2"
+                        >
+                        Нажми что бы узнать больше 
+                </a>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="card">
+            <div class="imgBx">
+                <img src="" alt="">
+            </div>
+
+            <div class="contentBx">
+
+                <h2>Взаимодействие с NPC</h2>
+                <div class="size">
+                <a
+                class="openDialogBtn3 button-violet3"
+                type="button3"
+                aria-haspopup="dialog3"
+                aria-controls="myDialog3"
+                >
+                Нажми что бы узнать больше 
+                </a>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+    <dialog class="child" id="myDialog">
+        <div class="dialog__wrapper">
+          <h3>
+            •	Обычные мобы: <br>
+                У каждого моба свои характеристики (здоровье, урон, скорость) и поведение (агрессивное, защитное, патрульное). <br>
+                Игрок может использовать различные атаки. <br>
+                Мобы могут обладать уникальными слабостями (например, уязвимость к определённым видам урона). <br>
+                Из побеждённых мобов выпадают ресурсы и деньги. <br>
+            •	Боссы:<br>
+                Каждый босс имеет несколько стадий боя, с изменением тактики и мощных атак.<br>
+                У боссов есть уникальные способности и механики, требующие изучения и стратегического подхода.<br>
+                В некоторых случаях победа над боссом требует решения головоломки, связанной с ареной боя или слабым местом босса.<br>
+                После победы игрок получает редкую награду (оружие, улучшение персонажа, доступ к новым зонам).<br>
+            </h3>
+          <button
+            class="closeDialogBtn button-black"
+            type="button"
+          >
+         Понятно!  
+          </button>
+        </div>
+    </dialog>
+
+    <dialog class="child2" id="myDialog2">
+        <div class="dialog__wrapper2">
+          <h3>
+        Типы головоломок: <br>
+        Логические задачи: активация рычагов, кнопок или тайных механизмов в определённом порядке.<br>
+        Головоломки со временем: игроку нужно выполнить действие за ограниченный период.<br>
+        Интерактивные элементы: игрок взаимодействует с объектами окружения.<br>
+        Взаимосвязь с другими механиками: <br>
+        Иногда для решения головоломок нужно победить мобов или получить подсказки от NPC.<br>
+        Решение головоломок может открывать секретные области, активировать ловушки или вызывать мобов/боссов.<br>
+    
+            </h3>
+          <button
+            class="closeDialogBtn2 button-black2"
+            type="button2"
+          >
+         Понятно!  
+          </button>
+        </div>
+    </dialog>
+
+    <dialog class="child3" id="myDialog3">
+        <div class="dialog__wrapper">
+          <h3>
+            Диалоги:<br>
+            NPC предоставляют информацию о мире, задания, подсказки для головоломок и истории персонажей.<br>
+            У игрока могут быть варианты ответов, влияющие на развитие сюжета или доступ к контенту.<br>
+            Задания:<br>
+            NPC выдают квесты, связанные с поиском предметов, уничтожением мобов, решением головоломок или защитой объекта.<br>
+            Выполнение заданий может приносить награды (ресурсы, оружие, доступ к новым зонам).<br>
+            Торговля:<br>
+            Некоторые NPC продают или обменивают предметы, оружие, зелья или улучшения.<br>
+            Игрок может продавать добытые ресурсы.<br>
+            Секреты:<br>
+            Некоторые NPC дают доступ к скрытым механикам, секретным локациям или предоставляют уникальные предметы.<br>
+            
+            </h3>
+          <button
+            class="closeDialogBtn3 button-black3"
+            type="button3"
+          >
+         Понятно!  
+          </button>
+        </div>
+    </dialog>
+
+
+    <script src="js/popup.js"></script>
+</body>
+</html>

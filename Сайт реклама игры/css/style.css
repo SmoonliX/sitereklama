@@ -1,0 +1,272 @@
+body{
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+    height: 100%;
+    width: 100%;
+	margin: 0;
+	padding: 0;
+    background: #1A1A1D;
+
+}
+.navigation{
+	z-index: 20;
+	width: 100%;
+	top: -1%;
+	position: absolute;
+	display: flex;
+	align-items: center;
+}
+
+.logo{
+	width: 10%;
+	display: flex;
+	align-items: center;
+
+}
+
+.logotype{
+	max-width: 70px;
+	margin-left: 50%;
+}
+
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+    text-align: center;
+}
+
+.navmenu {
+    margin-top: 5px;
+}
+
+.navitem{
+    padding: 0px 150px 0 0;
+}
+
+.navlink{
+    text-decoration: none;
+    color: #E5E5E5;
+    font-size: 20px;
+    border-bottom: 1px solid transparent;
+    transition: .3s;
+    font-weight: bold;
+    text-align: justify;
+}
+
+
+.navlink:hover{
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.bigphoto{
+    position: absolute;
+    width: 1920px;
+    height: 515px;
+    top: 75px;
+    left: 0;
+}
+
+.bigbig{
+    width: 1920px;
+    height: 515px;
+    border: 0px solid;
+}
+
+.inbigbig{
+    overflow: hidden;
+    padding-left: 0px;
+	width: 1920px;
+    height: 515px;
+}
+
+.exmpl {
+    overflow: hidden;  
+}
+
+.exmpl img {
+    width: 1920px;
+    height: 200%;
+    margin: -300px 0 0 0px;
+}
+
+.txtbigphoto{
+    width: 1027px;
+    top: 70px;
+    left: 470px;
+    color: #e5e5e5;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+}
+
+.bigfoto{
+    width: 170px;
+    top: 206px;
+    left: 887px;
+    font-size: 40px;
+    position: absolute;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.infolink{
+    position: absolute;
+    width: 340px;
+    height: 65px;
+    top: 377px;
+    left: 790px;
+    background-color: #474343;
+    border-radius: 40px;
+    transition: transform 0.3s ease;
+}
+
+.register{
+    top: 18px;
+    left: 65px;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.infolink:hover{
+    transform: scale(1.1);
+}
+
+.miniphoto1{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    top: 674px;
+    left: 116px;
+
+}
+
+.inin1{
+    width: 350px;
+    height: 250px;
+}
+
+.minifoto1{
+    top: 105px;
+    left: 113px;
+    font-size: 32px;
+    position: absolute;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.txtminiphoto1{
+    top: 615px;
+    left: 222px;
+    color: #e5e5e5;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.inin1{
+    display: inline-block;
+    width: 350px;
+    height: 250px;
+}
+
+.miniphoto2{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    top: 674px;
+    left: 777px;
+
+}
+
+.minifoto2{
+    top: 105px;
+    left: 113px;
+    font-size: 32px;
+    position: absolute;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.txtminiphoto2{
+    top: 615px;
+    left: 903px;
+    color: #e5e5e5;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.inin2{
+    display: inline-block;
+    width: 350px;
+    height: 250px;
+}
+
+.miniphoto3{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    top: 674px;
+    left: 1440px;
+    background-color: #8a8a8a;
+}
+
+.minifoto3{
+    top: 105px;
+    left: 113px;
+    font-size: 32px;
+    position: absolute;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.txtminiphoto3{
+    top: 615px;
+    left: 1543px;
+    color: #e5e5e5;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+}
+
+.inin3{
+    display: inline-block;
+    width: 350px;
+    height: 250px;
+}
